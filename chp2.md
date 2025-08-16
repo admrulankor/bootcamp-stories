@@ -1,9 +1,22 @@
-Hell of qui food truck master cleanse biodiesel actually ullamco. Grailed typewriter vexillologist, marxism cardigan ut shoreditch ad street art wolf nisi truffaut irony scenester. Dolore pok pok live-edge shaman listicle kickstarter solarpunk quinoa bicycle rights tumblr lo-fi lumbersexual af austin. Trust fund glossier nostrud id fingerstache, ex aliquip bicycle rights kickstarter solarpunk.
+As a long-time GNU/Linux user, Plan 9's model is more relevant than ever. GNU/Linux as an ecosystem is decidedly gotten worse over time, not better. In fact, that's one of the major reasons I use Plan 9 or one of its derivativesfor my computing.
 
-Est blog microdosing wolf selfies keytar ad dolore eu cupidatat. Portland irure before they sold out waistcoat 90's, yr taiyaki qui fashion axe YOLO godard exercitation nisi. Hexagon heirloom ut, waistcoat pok pok ennui beard coloring book DIY. Hashtag activated charcoal mumblecore, wolf messenger bag church-key four dollar toast cold-pressed deep v cred raclette quinoa bodega boys paleo. Anim shaman prism PBR&B man bun 3 wolf moon vice iceland adaptogen qui pariatur aliqua sriracha put a bird on it ullamco.
+The Plan 9 philosophy is working smarter instead of harder by leveraging UNIX principles and the synergy it brings along with it. Nothing else comes close to that except BSD, but even that's not really comparable, only that it's a highly engineered product.
 
-Glossier chartreuse woke disrupt labore, gorpcore blog pork belly la croix sint knausgaard tofu. Blog yuccie church-key commodo pug. Vegan shoreditch ugh irony drinking vinegar heirloom tote bag, chillwave bodega boys. Consequat activated charcoal helvetica cold-pressed, literally small batch readymade id poutine. Solarpunk irure in XOXO, gastropub sunt pariatur yes plz eu cliche mustache vice dolore poke. Quis incididunt aliqua tumblr meggings salvia godard poutine ut et roof party gatekeep anim single-origin coffee grailed. Disrupt cornhole green juice, gentrify banh mi grailed forage food truck tempor ullamco.
+With that being said, Plan 9 is not another flavor of GNU/Linux. If you expect it to be, you will have a bad time.
 
-Ennui letterpress tumeric gastropub ut, live-edge occupy slow-carb sed. Plaid fit leggings, beard letterpress activated charcoal direct trade deep v chambray nostrud bushwick DSA. Ut coloring book incididunt humblebrag fixie tote bag bespoke bruh bicycle rights eiusmod shaman narwhal fingerstache. Artisan mollit retro lyft qui DSA iPhone. Freegan cold-pressed bruh jawn, pabst quis ullamco DIY vegan ad adaptogen gochujang street art gorpcore. Hella tumeric schlitz ex, PBR&B synth tonx. Vape DIY helvetica pickled gastropub.
+Here's a fraction of the things I think Plan 9 improves on:
 
-Humblebrag vegan tempor brunch, twee neutral milk hotel vaporware hexagon kale chips unicorn. In austin vice whatever gastropub swag cupidatat normcore mustache leggings vibecession tilde nulla. Tote bag eiusmod 8-bit enim vice, post-ironic tbh prism microdosing vinyl asymmetrical esse organic live-edge keffiyeh. Stumptown food truck yr neutra hammock. Schlitz 90's ea eiusmod hoodie, fam raclette bodega boys est. PBR&B offal ramps etsy. Copper mug 8-bit pitchfork, cupidatat magna iceland letterpress paleo messenger bag fixie bespoke Brooklyn.
+* The rc shell fixes a lot of deficiencies in the Bourne shell.
+* Per-process namespaces obsolete a whole lot of things like symlinks.
+* There is no superuser (root account). This is obsoleted by an auth server called Factotum.
+* Uses its own compiler suite that makes cross-compilation particularly easy, compared to the mess of doing so with GCC. 
+* Uses its own much cleaner libc routines that are quite distinct from POSIX or the messy glibc additions of today
+* Has its own thread library, as well.
+* All network information is stored in a text file database mounted on a file server.
+* The default file system (Venti) is inherently versioned, introspectable and has backup built into it. You can do things like swap in libraries from cache and revert changes without a hitch.
+* Everything is statically linked.
+* Uses mk instead of make.
+* A lot of things like recursive copy and find aren't built into the standard commands. It's expected you actually chain together commands instead of reinventing the wheel for every single operation. The canonical example is the use of du to walk the file system tree, for everything. This replaces find and other things.
+* Designed not just to be multi-user, but multi-tenant. Makes many uses for containers and access controls unneeded because of its core design.
+
+Try it. It's more relevant now than ever.
