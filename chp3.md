@@ -27,3 +27,9 @@ Cassette futurism, cyberpunk, and capitalist dystopias continue to influence mod
 ## Influences of Philip K. Dick in Cyberpunk
 
 Philip K. Dick's works have profoundly shaped the cyberpunk genre. His stories often explore blurred boundaries between reality and simulation, questions of identity, and the impact of authoritarian corporations and technology on society. Novels like *Do Androids Dream of Electric Sheep?* (the basis for *Blade Runner*) introduced themes of artificial intelligence, empathy, and dystopian futures that are central to cyberpunk. Dick's influence is evident in the genre's focus on paranoia, altered consciousness, and the struggle of individuals against dehumanizing systems.
+
+## Japanese Influence in Cyberpunk
+
+Japanese culture and aesthetics have had a significant impact on the development of cyberpunk, particularly in Western works. The rapid technological advancement and urbanization of postwar Japan inspired visions of dense, neon-lit cityscapes and a blending of tradition with futuristic elements. Iconic Japanese media such as *Akira* and *Ghost in the Shell* introduced themes of cybernetics, artificial intelligence, and existentialism, which were adopted by Western creators.
+
+Western cyberpunk often incorporates Japanese language, signage, and motifs to evoke a sense of globalized, multicultural futures. This influence is visible in films like *Blade Runner*, where city environments feature Japanese advertisements and architecture, reflecting both admiration and anxieties about technology, identity, and cultural convergence.
